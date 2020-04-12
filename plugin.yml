@@ -1,0 +1,19 @@
+#name, main, version and api are required
+name: LoginPlugin
+main: pl.WindSkull.LoginPlugin.Core
+database: true
+version: "1.0"
+api: ["1.0.5"]
+author: WindSkull
+description: Plugin for login on server
+depend: [SimpleORM]
+commands:
+ login:
+  description: Komenda do logowania na serwerze.
+  usage: /<command> <haslo>
+ register:
+  description: Komenda do rejestrowania na serwerze.
+  usage: /<command> <haslo> <haslo>
+ passchange:
+  description: Komenda do rejestrowania na serwerze.
+  usage: /<command> <haslo> <nowehaslo> <nowehaslo>
